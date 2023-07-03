@@ -1,12 +1,11 @@
 {
-  "name": "pdf-research",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-pdf-next-js",
+  "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
     "@types/node": "20.3.3",
@@ -19,7 +18,14 @@
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-pdf": "^7.1.2",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
-  }
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
 }
